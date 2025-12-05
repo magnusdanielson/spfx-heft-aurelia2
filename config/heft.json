@@ -52,58 +52,9 @@
             }
           }
         },
-        "sass": {
-          "taskDependencies": [
-            "set-browserslist-ignore-old-data-env-var"
-          ],
-          "taskPlugin": {
-            "pluginPackage": "@rushstack/heft-sass-plugin"
-          }
-        },
-        "typescript": {
-          "taskDependencies": [
-            "sass"
-          ],
-          "taskPlugin": {
-            "pluginPackage": "@rushstack/heft-typescript-plugin"
-          }
-        },
-        "lint": {
-          "taskDependencies": [
-            "typescript"
-          ],
-          "taskPlugin": {
-            "pluginPackage": "@rushstack/heft-lint-plugin",
-            "options": {
-              "sarifLogPath": "release/analysis-logs/lint.sarif"
-            }
-          }
-        },
-        "copy-javascript": {
-          "taskPlugin": {
-            "pluginPackage": "@rushstack/heft",
-            "pluginName": "copy-files-plugin",
-            "options": {
-              "copyOperations": [
-                {
-                  "sourcePath": "./src",
-                  "destinationFolders": [
-                    "./lib",
-                    "./lib-commonjs"
-                  ],
-                  "fileExtensions": [
-                    ".js"
-                  ]
-                }
-              ]
-            }
-          }
-        },
+
         "webpack": {
           "taskDependencies": [
-            "typescript",
-            "sass",
-            "copy-javascript"
           ],
           "taskPlugin": {
             "pluginPackage": "@rushstack/heft-webpack5-plugin"
