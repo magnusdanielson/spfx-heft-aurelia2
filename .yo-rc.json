@@ -1,0 +1,20 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.16.0",
+    "sdksVersions": {},
+    "version": "1.22.0-rc.0",
+    "libraryName": "spfx-heft",
+    "libraryId": "89ddd289-f879-4022-99a3-cb0f8b1d154c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-heft",
+    "solutionShortDescription": "spfx-heft description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart",
+    "ejected": true
+  }
+}

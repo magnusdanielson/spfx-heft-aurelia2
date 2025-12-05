@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-heft-client-side-solution",
+    "id": "89ddd289-f879-4022-99a3-cb0f8b1d154c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.0-rc.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-heft description"
+      },
+      "longDescription": {
+        "default": "spfx-heft description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-heft Feature",
+        "description": "The feature that activates elements of the spfx-heft solution.",
+        "id": "0066f174-be8a-479b-bc12-e1d5dc84023c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-heft.sppkg"
+  }
+}
