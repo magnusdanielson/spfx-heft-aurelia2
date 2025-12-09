@@ -10,7 +10,7 @@
   },
   "phasesByName": {
     "build": {
-      "phaseDescription": "Build and lint the project.",
+      "phaseDescription": "Build and lintz the project.",
       "cleanFiles": [
         {
           "sourcePath": "src",
@@ -52,9 +52,8 @@
             }
           }
         },
-
         "webpack": {
-          "taskDependencies": [
+          "taskDependencies": ["set-browserslist-ignore-old-data-env-var"
           ],
           "taskPlugin": {
             "pluginPackage": "@rushstack/heft-webpack5-plugin"

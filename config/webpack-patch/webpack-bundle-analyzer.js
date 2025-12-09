@@ -86,7 +86,15 @@ module.exports = function(webpackConfig) {
    */
   console.log(webpackConfig.module.rules);
 
-
+for (const rule of webpackConfig.module.rules) {
+    if (rule.test && rule.test.toString().includes('scss')) {
+      console.log("RULE2.test:", rule.test.toString());
+      console.log("USE:");
+      console.log(rule.use);
+      console.log("------------------------------------------");
+    }
+  }
+  console.log("===========================================\n");
 
   return webpackConfig;
 };

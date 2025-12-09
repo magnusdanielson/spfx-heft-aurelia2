@@ -1,0 +1,21 @@
+// Nesting selectors - not valid in plain CSS
+.container {
+    padding: 20px;
+    
+    .header {
+        font-size: 24px;
+        
+        &:hover {
+            color: blue;
+        }
+    }
+}
+
+// Variables - not valid in plain CSS
+$primary-color: #007bff;
+$spacing: 16px;
+
+.button {
+    background-color: $primary-color;
+    padding: $spacing;
+}

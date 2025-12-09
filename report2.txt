@@ -1,0 +1,1198 @@
+Generating SPFx webpack config for {
+  'hello-world-web-part': './src/webparts/helloWorld/HelloWorldWebPart.ts'
+} {
+  HelloWorldWebPartStrings: 'C:\\GitProjects\\spfx-heft\\src\\webparts\\helloWorld\\loc\\en-us.resjson'
+} C:\GitProjects\spfx-heft/dist
+RULE.test: /\.module\.scss$/i
+USE:
+[
+  {
+    loader: 'C:\\GitProjects\\spfx-heft\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js'
+  },
+  {
+    loader: 'C:\\GitProjects\\spfx-heft\\node_modules\\css-loader\\dist\\cjs.js',
+    options: { importLoaders: 1, modules: [Object] }
+  },
+  {
+    loader: 'C:\\GitProjects\\spfx-heft\\node_modules\\sass-loader\\dist\\cjs.js',
+    options: { sassOptions: [Object] }
+  }
+]
+------------------------------------------
+===========================================
+
+PublicPath: [1mauto[39m[22m
+assets by status 680 KiB [1m[32m[cached][39m[22m 1 asset
+assets by path [1m[32m../lib/webparts/helloWorld/[39m[22m 1.96 KiB
+  assets by path [1m[32m../lib/webparts/helloWorld/platinaTeamsInbox/components/[39m[22m 413 bytes
+    asset [1m[32m../lib/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.d.ts.map[39m[22m 242 bytes [1m[33m[compared for emit][39m[22m
+    asset [1m[32m../lib/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.d.ts[39m[22m 171 bytes [1m[33m[compared for emit][39m[22m
+  asset [1m[32m../lib/webparts/helloWorld/HelloWorldWebPart.d.ts[39m[22m 841 bytes [1m[33m[compared for emit][39m[22m
+  asset [1m[32m../lib/webparts/helloWorld/HelloWorldWebPart.d.ts.map[39m[22m 757 bytes [1m[33m[compared for emit][39m[22m
+asset [1m[32md4a9c6af-4fbd-4462-8a39-7d43a05fe76e.manifest.json[39m[22m 1.46 KiB [1m[33m[compared for emit][39m[22m
+Entrypoint [1mhello-world-web-part[39m[22m [1m[33m[big][39m[22m 680 KiB = [1m[32mhello-world-web-part_en-us_153894aac2fac882e05c.js[39m[22m
+chunk {[1m[33mhello-world-web-part[39m[22m} (runtime: hello-world-web-part) [1m[32mhello-world-web-part_en-us_153894aac2fac882e05c.js[39m[22m (hello-world-web-part) 558 KiB (javascript) 1.13 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+  > ./src/webparts/helloWorld/HelloWorldWebPart.ts [1m[39m[22m hello-world-web-part
+  dependent modules 554 KiB [1m[36m[dependent][39m[22m
+    cacheable modules 553 KiB
+      modules by path [1m./node_modules/[39m[22m 542 KiB
+        modules by path [1m./node_modules/@aurelia/[39m[22m 507 KiB
+          [1m./node_modules/@aurelia/expression-parser/dist/esm/index.mjs[39m[22m 49.9 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+            [1m[36m[exports: AccessBoundaryExpression, AccessGlobalExpression, AccessKeyedExpression, AccessMemberExpression, AccessScopeExpression, AccessThisExpression, ArrayBindingPattern, ArrayLiteralExpression, ArrowFunction, AssignExpression, BinaryExpression, BindingBehaviorExpression, BindingIdentifier, CallFunctionExpression, CallGlobalExpression, CallMemberExpression, CallScopeExpression, ConditionalExpression, CustomExpression, DestructuringAssignmentExpression, DestructuringAssignmentRestExpression, DestructuringAssignmentSingleExpression, ExpressionParser, ForOfStatement, IExpressionParser, Interpolation, NewExpression, ObjectBindingPattern, ObjectLiteralExpression, PrimitiveLiteralExpression, TaggedTemplateExpression, TemplateExpression, UnaryExpression, Unparser, ValueConverterExpression, astVisit, parseExpression][39m[22m
+            [1m[36m[used exports unknown][39m[22m
+            from origin [1m[35m./node_modules/@aurelia/runtime-html/dist/esm/index.mjs[39m[22m
+              harmony side effect evaluation [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 13:0-122 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2455:115-117 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3113:24-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4320:16-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4328:20-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6620:33-35 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8286:20-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8655:57-59 [1m[36m[39m[22m
+            from origin [1m[35m./node_modules/@aurelia/runtime/dist/esm/index.mjs[39m[22m
+              harmony side effect evaluation [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 1:0-114 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 638:33-34 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3234:20-21 [1m[36m[39m[22m
+            from origin [1m[35m./node_modules/@aurelia/template-compiler/dist/esm/index.mjs[39m[22m
+              harmony side effect evaluation [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 5:0-101 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1578:62-63 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 2227:35-36 [1m[36m[39m[22m
+            from origin [1m[35m./node_modules/aurelia/dist/esm/index.mjs[39m[22m
+              harmony side effect evaluation [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 13:0-81 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 13:0-81 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/expression-parser[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 13:0-81 [1m[36m[39m[22m
+          [1m./node_modules/@aurelia/kernel/dist/esm/index.mjs[39m[22m 49.8 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+            [1m[36m[exports: AnalyzedModule, ConsoleSink, ContainerConfiguration, DI, DefaultLogEvent, DefaultLogEventFactory, DefaultLogger, DefaultResolver, EventAggregator, IContainer, IEventAggregator, ILogConfig, ILogEventFactory, ILogger, IModuleLoader, IPlatform, IServiceLocator, ISink, InstanceProvider, LogConfig, LogLevel, LoggerConfiguration, ModuleItem, Protocol, Registration, aliasedResourcesRegistry, all, allResources, areEqual, bound, camelCase, createImplementationRegister, createLookup, createResolver, emptyArray, emptyObject, factory, firstDefined, format, fromAnnotationOrDefinitionOrTypeOrDefault, fromAnnotationOrTypeOrDefault, fromDefinitionOrDefault, getPrototypeChain, getResourceKeyFor, ignore, inject, isArray, isArrayIndex, isFunction, isMap, isNativeFunction, isNumber, isObject, isObjectOrFunction, isPromise, isSet, isString, isSymbol, kebabCase, last, lazy, mergeArrays, newInstanceForScope, newInstanceOf, noop, onResolve, onResolveAll, optional, optionalResource, own, pascalCase, registrableMetadataKey, resolve, resource, resourceBaseName, singleton, sink, toArray, transient][39m[22m
+            [1m[36m[used exports unknown][39m[22m
+            from origin [1m[35m./node_modules/@aurelia/runtime-html/dist/esm/index.mjs[39m[22m
+              [inactive] harmony side effect evaluation [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1:0-850 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 28:25-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 48:25-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 54:9-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 133:37-38 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 140:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 164:31-32 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 176:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 190:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 207:53-54 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 207:88-89 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 230:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 244:67-68 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 248:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 258:11-28 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 260:11-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 262:11-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 264:11-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 266:0-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 268:0-11 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 326:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 335:48-49 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 335:88-89 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 349:25-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 359:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 364:21-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 379:21-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 439:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 439:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 447:21-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 447:41-42 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 469:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 492:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 528:55-56 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 528:57-58 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 536:21-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 536:41-42 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 585:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 593:11-12 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 634:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 640:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 689:31-32 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 706:28-29 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 738:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 747:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 751:48-49 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 751:89-90 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 751:176-177 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 751:199-200 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 751:400-401 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 751:494-495 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 751:530-531 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 751:608-609 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 761:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 774:25-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 780:29-30 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 787:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 802:8-9 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 916:10-11 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 941:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 950:47-48 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 950:88-89 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 964:25-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 974:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 979:21-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 998:21-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1338:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1526:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1540:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1620:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1634:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1905:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1975:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2016:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2093:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2093:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2094:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2103:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2128:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2208:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2326:90-91 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2440:13-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2517:47-48 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2518:49-50 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2579:8-9 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2583:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2585:8-9 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2595:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2615:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2623:50-51 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2631:6-7 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2640:8-9 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2700:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2742:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2778:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2904:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2926:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2927:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2986:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2987:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3036:32-33 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3037:31-32 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3040:49-50 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3056:13-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3067:32-33 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3068:31-32 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3069:49-50 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3097:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3097:37-38 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3106:11-12 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3111:28-29 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3111:30-31 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3155:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3229:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3231:34-35 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3240:34-35 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3279:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3289:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3299:13-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3353:27-28 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3418:13-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3484:13-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3602:40-41 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3604:24-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3608:36-37 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3620:40-41 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3647:50-51 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3769:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3772:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3774:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3805:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3808:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3810:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3869:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3872:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3874:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3899:37-38 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3922:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3925:24-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3928:24-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3931:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4038:21-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4041:21-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4043:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4083:28-29 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4089:28-29 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4092:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4250:11-12 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4289:11-12 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4295:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4339:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4340:13-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4343:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4346:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4726:98-99 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4749:9-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4815:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4818:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4819:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4822:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:53-54 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:67-68 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:108-109 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:141-142 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:174-175 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:193-194 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:253-254 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:285-286 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:319-320 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:396-397 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:435-436 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:470-471 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:501-502 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:531-532 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:566-567 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4827:599-600 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4829:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4830:53-54 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4830:125-126 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4830:155-156 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4830:185-186 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4830:245-246 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4830:305-306 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4830:337-338 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4830:371-372 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4830:504-505 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4830:540-541 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4830:575-576 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4830:606-607 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4830:636-637 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4830:672-673 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4830:705-706 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4832:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4836:49-50 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4836:132-133 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4836:165-166 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4836:198-199 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4836:274-275 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4836:350-351 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4836:385-386 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4836:422-423 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4836:582-583 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4836:621-622 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4836:659-660 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4836:693-694 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4836:726-727 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4836:773-774 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4836:809-810 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4879:31-32 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4883:25-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4896:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4900:27-28 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5028:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5028:24-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5031:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5045:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5068:36-37 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5070:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5083:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5101:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5103:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5111:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5111:32-33 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5111:63-64 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5114:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5114:48-49 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5119:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5165:20-37 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5177:36-37 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5178:41-42 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5179:46-47 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5191:46-47 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5196:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5207:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5210:25-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5216:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5225:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5232:29-30 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5232:53-54 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5264:14-15 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5265:8-9 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5284:21-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5287:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5289:25-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5291:26-27 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5338:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5372:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5403:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5404:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5405:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5453:31-32 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5482:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5557:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5588:28-29 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5592:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5593:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5597:11-12 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5701:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5876:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5881:25-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5898:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5901:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5910:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5949:25-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5979:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6023:14-15 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6045:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6046:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6047:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6048:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6049:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6049:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6050:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6051:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6052:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6112:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6113:25-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6121:29-30 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6152:56-57 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6184:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6185:31-32 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6190:39-40 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6247:31-32 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6313:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6342:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6452:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6453:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6495:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6496:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6503:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6521:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6521:52-53 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6534:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6567:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6608:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6609:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6610:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6611:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6612:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6620:31-32 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6658:37-38 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6760:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6761:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6775:27-28 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6844:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6868:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6887:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6907:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6955:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7087:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7087:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7118:32-33 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7130:13-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7142:13-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7154:13-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7166:13-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7245:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7245:47-48 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7290:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7291:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7349:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7370:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7392:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7408:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7408:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7420:27-28 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7420:29-30 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7467:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7468:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7469:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7470:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7470:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7488:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7497:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7577:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7578:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7579:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7580:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7580:24-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7588:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7598:13-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7607:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7607:55-56 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7614:78-79 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7627:78-79 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7666:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7667:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7712:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7713:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7759:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7760:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7821:5-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7836:5-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7851:5-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7860:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7861:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7922:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7923:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7924:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7951:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7955:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7964:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7968:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7974:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7981:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7991:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7998:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8004:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8017:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8019:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8104:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8105:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8106:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8107:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8127:40-41 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8130:98-99 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8132:31-32 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8167:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8168:27-28 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8276:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8276:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8277:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8278:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8279:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8280:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8281:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8282:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8283:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8283:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8284:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8285:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8286:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8287:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8298:25-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8310:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8322:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8322:35-36 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8331:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8333:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8335:31-32 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8338:39-40 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8340:39-40 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8383:36-37 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8387:75-76 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8396:101-102 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8411:88-89 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8415:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8429:36-37 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8431:35-36 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8442:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8486:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8501:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8501:26-27 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8564:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8581:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8582:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8604:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8642:45-46 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8684:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8730:18-19 [1m[36m[39m[22m
+            from origin [1m[35m./node_modules/@aurelia/runtime/dist/esm/index.mjs[39m[22m
+              [inactive] harmony side effect evaluation [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3:0-283 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 32:10-27 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 167:37-38 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 176:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 203:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 261:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 288:21-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 292:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 301:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 346:37-38 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 369:21-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 404:28-29 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 413:28-29 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 555:27-28 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 556:47-48 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 578:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 583:24-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 659:24-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 966:30-31 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 977:34-35 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 1055:24-41 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 1119:11-12 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 1680:37-38 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2101:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2103:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2105:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2252:14-15 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2252:26-27 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2252:34-35 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2530:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2536:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2542:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2560:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2715:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2719:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2788:24-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2819:30-31 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2858:19-30 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2858:44-53 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2864:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2864:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 2994:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3000:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3098:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3099:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3100:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3109:13-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3110:44-45 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3112:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3150:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3156:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3158:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3164:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3164:24-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3205:8-9 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3207:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3209:15-16 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3223:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3233:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3234:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3250:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3285:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3393:13-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3434:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3508:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3510:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3520:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 3525:20-21 [1m[36m[39m[22m
+            from origin [1m[35m./node_modules/@aurelia/template-compiler/dist/esm/index.mjs[39m[22m
+              [inactive] harmony side effect evaluation [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1:0-409 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 7:10-27 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 11:35-36 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 99:21-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 115:25-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 408:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 409:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 409:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 450:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 456:10-11 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 479:5-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 504:5-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 525:5-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 543:5-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 561:5-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 838:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 847:47-48 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 847:86-87 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 861:25-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 865:41-60 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 885:24-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 894:25-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 907:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 909:36-37 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 930:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 932:36-37 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 953:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 955:36-37 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 976:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 978:36-37 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1002:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1005:36-37 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1011:64-65 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1022:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1028:40-41 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1030:16-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1086:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1171:17-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1171:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1178:12-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1275:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1295:45-46 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1295:65-66 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1297:44-45 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1386:76-77 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1488:76-77 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1571:68-69 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1578:72-73 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1591:27-28 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1593:31-32 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1758:85-86 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1774:87-88 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1777:16-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1777:30-31 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1777:38-39 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 1777:46-47 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 2065:18-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 2081:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 2101:26-27 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 2119:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 2124:83-84 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 2208:28-29 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 2229:35-36 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 2230:45-46 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 2366:24-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 2375:21-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 2382:19-20 [1m[36m[39m[22m
+            from origin [1m[35m./node_modules/aurelia/dist/esm/index.mjs[39m[22m
+              [inactive] harmony side effect evaluation [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 1:0-61 [1m[36m[39m[22m
+              [inactive] harmony side effect evaluation [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 3:0-418 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 22:11-28 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 22:40-50 [1m[36m[39m[22m
+            from origin [1m[35m./node_modules/@aurelia/expression-parser/dist/esm/index.mjs[39m[22m
+              [inactive] harmony side effect evaluation [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/expression-parser/dist/esm/index.mjs] 1:0-94 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/expression-parser/dist/esm/index.mjs] 260:59-60 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/expression-parser/dist/esm/index.mjs] 270:61-62 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/expression-parser/dist/esm/index.mjs] 270:64-65 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/expression-parser/dist/esm/index.mjs] 273:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/expression-parser/dist/esm/index.mjs] 283:29-30 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/expression-parser/dist/esm/index.mjs] 324:23-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/expression-parser/dist/esm/index.mjs] 766:24-41 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/kernel[39m[22m [./node_modules/@aurelia/expression-parser/dist/esm/index.mjs] 827:28-29 [1m[36m[39m[22m
+          [1m./node_modules/@aurelia/metadata/dist/esm/index.mjs[39m[22m 1.29 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+            [1m[36m[exports: Metadata, initializeTC39Metadata][39m[22m
+            [1m[36m[used exports unknown][39m[22m
+            from origin [1m[35m./node_modules/@aurelia/kernel/dist/esm/index.mjs[39m[22m
+              harmony side effect evaluation [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/kernel/dist/esm/index.mjs] 1:0-79 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/kernel/dist/esm/index.mjs] 9:10-15 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/kernel/dist/esm/index.mjs] 11:0-5 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/kernel/dist/esm/index.mjs] 13:10-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/kernel/dist/esm/index.mjs] 1057:4-5 [1m[36m[39m[22m
+            from origin [1m[35m./node_modules/@aurelia/runtime-html/dist/esm/index.mjs[39m[22m
+              harmony side effect evaluation [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7:0-51 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 22:11-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 24:11-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 26:11-20 [1m[36m[39m[22m
+            from origin [1m[35m./node_modules/@aurelia/template-compiler/dist/esm/index.mjs[39m[22m
+              harmony side effect evaluation [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 3:0-50 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 570:10-15 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 572:0-5 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/template-compiler/dist/esm/index.mjs] 574:10-18 [1m[36m[39m[22m
+            from origin [1m[35m./node_modules/@aurelia/runtime/dist/esm/index.mjs[39m[22m
+              harmony side effect evaluation [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 5:0-50 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 34:10-15 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/metadata[39m[22m [./node_modules/@aurelia/runtime/dist/esm/index.mjs] 36:10-18 [1m[36m[39m[22m
+            harmony side effect evaluation [1m[36m@aurelia/metadata[39m[22m [./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts] 33:0-52 [1m[36m[39m[22m
+          [1m./node_modules/@aurelia/platform-browser/dist/esm/index.mjs[39m[22m 1.9 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+            [1m[36m[exports: BrowserPlatform][39m[22m
+            [1m[36m[used exports unknown][39m[22m
+            from origin [1m[35m./node_modules/@aurelia/runtime-html/dist/esm/index.mjs[39m[22m
+              harmony side effect evaluation [1m[36m@aurelia/platform-browser[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 11:0-66 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/platform-browser[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5132:20-22 [1m[36m[39m[22m
+            from origin [1m[35m./node_modules/aurelia/dist/esm/index.mjs[39m[22m
+              harmony side effect evaluation [1m[36m@aurelia/platform-browser[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 9:0-65 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/platform-browser[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 19:10-23 [1m[36m[39m[22m
+          [1m./node_modules/@aurelia/platform/dist/esm/index.mjs[39m[22m 12.6 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+            [1m[36m[exports: Platform, Task, TaskAbortError, TaskQueue, ensureEmpty, reportTaskQueue][39m[22m
+            [1m[36m[used exports unknown][39m[22m
+            from origin [1m[35m./node_modules/aurelia/dist/esm/index.mjs[39m[22m
+              harmony side effect evaluation [1m[36m@aurelia/platform[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 11:0-78 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/platform[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 11:0-78 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/platform[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 11:0-78 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/platform[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 11:0-78 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/platform[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 11:0-78 [1m[36m[39m[22m
+            from origin [1m[35m./node_modules/@aurelia/platform-browser/dist/esm/index.mjs[39m[22m
+              harmony side effect evaluation [1m[36m@aurelia/platform[39m[22m [./node_modules/@aurelia/platform-browser/dist/esm/index.mjs] 1:0-66 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/platform[39m[22m [./node_modules/@aurelia/platform-browser/dist/esm/index.mjs] 3:30-31 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/platform[39m[22m [./node_modules/@aurelia/platform-browser/dist/esm/index.mjs] 50:26-27 [1m[36m[39m[22m
+          [1m./node_modules/@aurelia/runtime-html/dist/esm/index.mjs[39m[22m 240 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+            [1m[36m[exports: AdoptedStyleSheetsStyles, AppRoot, AppTask, ArrayLikeHandler, AttrBindingBehavior, AttrMapper, AttributeBinding, AttributeBindingRenderer, AttributeNSAccessor, AuCompose, AuSlot, AuSlotsInfo, Aurelia, Bindable, BindableDefinition, BindingBehavior, BindingBehaviorDefinition, BindingCommand, BindingMode, BindingModeBehavior, BindingTargetSubscriber, CSSModulesProcessorRegistry, Case, CheckedObserver, ChildrenBinding, ClassAttributeAccessor, ComputedWatcher, ContentBinding, Controller, CustomAttribute, CustomAttributeDefinition, CustomAttributeRenderer, CustomElement, CustomElementDefinition, CustomElementRenderer, DataAttributeAccessor, DebounceBindingBehavior, DefaultBindingLanguage, DefaultBindingSyntax, DefaultCase, DefaultComponents, DefaultRenderers, DefaultResources, Else, EventModifier, EventModifierRegistration, ExpressionWatcher, FlushQueue, Focus, FragmentNodeSequence, FromViewBindingBehavior, FulfilledTemplateController, IAppRoot, IAppTask, IAuSlotWatcher, IAuSlotsInfo, IAurelia, IController, IEventModifier, IEventTarget, IFlushQueue, IHistory, IHydrationContext, IKeyMapping, ILifecycleHooks, IListenerBindingOptions, ILocation, IModifiedEventHandlerCreator, INode, IPlatform, IRenderLocation, IRenderer, IRendering, IRepeatableHandler, IRepeatableHandlerResolver, ISVGAnalyzer, ISanitizer, IShadowDOMGlobalStyles, IShadowDOMStyleFactory, IShadowDOMStyles, ISignaler, IViewFactory, IWindow, If, InterpolationBinding, InterpolationBindingRenderer, InterpolationPartBinding, IteratorBindingRenderer, LetBinding, LetElementRenderer, LifecycleHooks, LifecycleHooksDefinition, LifecycleHooksEntry, ListenerBinding, ListenerBindingOptions, ListenerBindingRenderer, MountTarget, NodeObserverLocator, NoopSVGAnalyzer, OneTimeBindingBehavior, PendingTemplateController, Portal, PromiseTemplateController, PropertyBinding, PropertyBindingRenderer, RefBinding, RefBindingRenderer, RejectedTemplateController, Rendering, Repeat, RuntimeTemplateCompilerImplementation, SVGAnalyzer, SanitizeValueConverter, SelectValueObserver, SelfBindingBehavior, SetAttributeRenderer, SetClassAttributeRenderer, SetPropertyRenderer, SetStyleAttributeRenderer, ShadowDOMRegistry, ShortHandBindingSyntax, SignalBindingBehavior, SpreadRenderer, StandardConfiguration, State, StyleAttributeAccessor, StyleConfiguration, StyleElementStyles, StylePropertyBindingRenderer, Switch, TemplateControllerRenderer, TextBindingRenderer, ThrottleBindingBehavior, ToViewBindingBehavior, TwoWayBindingBehavior, UpdateTriggerBindingBehavior, ValueAttributeObserver, ValueConverter, ValueConverterDefinition, ViewFactory, Watch, With, alias, bindable, bindingBehavior, capture, children, coercer, containerless, convertToRenderLocation, cssModules, customAttribute, customElement, getEffectiveParentNode, isCustomElementController, isCustomElementViewModel, isRenderLocation, lifecycleHooks, mixinAstEvaluator, mixinUseScope, mixingBindingLimited, processContent, refs, registerAliases, registerHostNode, renderer, setEffectiveParentNode, shadowCSS, slotted, templateController, useShadowDOM, valueConverter, watch][39m[22m
+            [1m[36m[used exports unknown][39m[22m
+            from origin [1m[35m./node_modules/aurelia/dist/esm/index.mjs[39m[22m
+              [inactive] harmony side effect evaluation [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 5:0-117 [1m[36m[39m[22m
+              [inactive] harmony side effect evaluation [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              [inactive] harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 22:51-52 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 22:58-59 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 25:22-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 39:12-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 40:22-37 [1m[36m[39m[22m
+            from origin [1m[35m./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts[39m[22m
+              [inactive] harmony side effect evaluation [1m[36m@aurelia/runtime-html[39m[22m [./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts] 3:0-54 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime-html[39m[22m [./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts] 7:28-41 [1m[36m[39m[22m
+              [inactive] harmony side effect evaluation [1m[36m@aurelia/runtime-html[39m[22m [./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts] 34:0-90 [1m[36m[39m[22m
+            from origin [1m[35m./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.html[39m[22m
+              [inactive] harmony side effect evaluation [1m[36m@aurelia/runtime-html[39m[22m [./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.html] 1:0-54 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime-html[39m[22m [./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.html] 10:9-29 [1m[36m[39m[22m
+          [1m./node_modules/@aurelia/runtime/dist/esm/index.mjs[39m[22m 89.7 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+            [1m[36m[exports: AccessorType, BindingContext, CollectionLengthObserver, CollectionSizeObserver, ComputedObserver, ConnectableSwitcher, DirtyCheckProperty, DirtyCheckSettings, DirtyChecker, ICoercionConfiguration, IComputedObserverLocator, IDirtyChecker, INodeObserverLocator, IObservation, IObserverLocator, Observation, ObserverLocator, PrimitiveObserver, PropertyAccessor, ProxyObservable, RecurringTask, Scope, SetterObserver, Task, TaskAbortError, astAssign, astBind, astEvaluate, astUnbind, batch, cloneIndexMap, computed, connectable, copyIndexMap, createIndexMap, getCollectionObserver, getObserverLookup, getRecurringTasks, isIndexMap, mixinNoopAstEvaluator, nowrap, observable, queueAsyncTask, queueRecurringTask, queueTask, runTasks, subscriberCollection, tasksSettled][39m[22m
+            [1m[36m[used exports unknown][39m[22m
+            from origin [1m[35m./node_modules/@aurelia/runtime-html/dist/esm/index.mjs[39m[22m
+              [inactive] harmony side effect evaluation [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 9:0-558 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 93:11-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 95:11-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 97:11-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1015:18-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1191:20-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1231:24-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1360:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1364:22-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1381:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1383:39-41 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1390:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1400:4-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1433:12-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1523:18-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1538:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1539:17-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1551:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1560:4-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1599:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1603:22-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1614:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1618:31-33 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1632:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1633:27-29 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1643:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1655:4-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1678:17-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1692:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1693:17-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1700:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1709:4-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1734:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1742:12-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1753:18-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1766:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1780:30-32 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1797:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1816:4-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1833:12-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1836:12-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1855:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1863:12-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1866:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1872:4-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1903:16-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1932:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 1939:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2287:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2405:18-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2424:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2425:18-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2431:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2449:31-44 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2468:4-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3114:24-26 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3362:30-32 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3364:31-33 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3405:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3438:4-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3471:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3482:18-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3492:17-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3505:4-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3639:21-30 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4250:13-15 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4257:30-32 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4267:16-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4327:20-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 4330:42-51 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5232:55-57 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5816:4-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6016:4-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6038:15-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6051:20-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6210:16-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6242:23-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6247:33-35 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6414:4-6 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6452:20-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6453:20-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6652:25-27 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6686:25-27 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6710:16-18 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6774:26-28 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6816:31-33 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7131:17-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7143:17-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7155:17-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7191:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7197:39-41 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7204:11-13 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7211:28-30 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7221:25-27 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7235:18-31 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7235:39-41 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7236:8-10 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7238:11-24 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7238:32-34 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7253:16-29 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7261:18-31 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7468:20-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7588:51-64 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7607:46-48 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7614:69-71 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7627:69-71 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8163:23-36 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8287:20-22 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8404:58-71 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8404:96-105 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8618:12-14 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8630:17-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8655:33-35 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8666:8-10 [1m[36m[39m[22m
+            from origin [1m[35m./node_modules/aurelia/dist/esm/index.mjs[39m[22m
+              [inactive] harmony side effect evaluation [1m[36m@aurelia/runtime[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 15:0-132 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 15:0-132 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 15:0-132 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 15:0-132 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 15:0-132 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 15:0-132 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 15:0-132 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 15:0-132 [1m[36m[39m[22m
+          [1m./node_modules/@aurelia/template-compiler/dist/esm/index.mjs[39m[22m 61.7 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+            [1m[36m[exports: AtPrefixedTriggerAttributePattern, AttrBindingCommand, AttrSyntax, AttributeBindingInstruction, AttributeParser, AttributePattern, BindingCommand, BindingCommandDefinition, BindingMode, CaptureBindingCommand, ClassBindingCommand, ColonPrefixedBindAttributePattern, DefaultBindingCommand, DotSeparatedAttributePattern, EventAttributePattern, ForBindingCommand, FromViewBindingCommand, HydrateAttributeInstruction, HydrateElementInstruction, HydrateLetElementInstruction, HydrateTemplateController, IAttrMapper, IAttributeParser, IAttributePattern, IBindingCommandResolver, IInstruction, IResourceResolver, ISyntaxInterpreter, ITemplateCompiler, ITemplateCompilerHooks, ITemplateElementFactory, InstructionType, InterpolationInstruction, Interpretation, IteratorBindingInstruction, LetBindingInstruction, ListenerBindingInstruction, MultiAttrInstruction, OneTimeBindingCommand, PropertyBindingInstruction, RefAttributePattern, RefBindingCommand, RefBindingInstruction, SetAttributeInstruction, SetClassAttributeInstruction, SetPropertyInstruction, SetStyleAttributeInstruction, SpreadElementPropBindingInstruction, SpreadTransferedBindingInstruction, SpreadValueBindingCommand, SpreadValueBindingInstruction, StyleBindingCommand, StylePropertyBindingInstruction, SyntaxInterpreter, TemplateCompiler, TemplateCompilerHooks, TextBindingInstruction, ToViewBindingCommand, TriggerBindingCommand, TwoWayBindingCommand, attributePattern, bindingCommand, generateElementName, templateCompilerHooks][39m[22m
+            [1m[36m[used exports unknown][39m[22m
+            from origin [1m[35m./node_modules/@aurelia/runtime-html/dist/esm/index.mjs[39m[22m
+              harmony side effect evaluation [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3:0-800 [1m[36m[39m[22m
+              harmony side effect evaluation [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5:0-73 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5:0-73 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5:0-73 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 20:73-74 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 207:95-96 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 751:183-184 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2330:23-48 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2334:23-42 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2455:141-149 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2686:22-35 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2701:22-38 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2743:22-40 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2779:22-49 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2819:22-41 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2842:22-34 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2852:22-37 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2868:22-39 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2884:22-39 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2894:22-35 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2925:22-39 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2937:22-36 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2946:22-41 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2955:22-41 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2964:22-44 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2974:22-40 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2986:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2988:22-47 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 2997:22-42 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3037:24-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3068:24-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3119:24-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 3251:19-27 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5482:24-25 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5522:19-20 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 5588:30-31 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 6612:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7814:19-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7821:9-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7829:19-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7836:9-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7844:19-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 7851:9-17 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8106:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8282:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8284:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8604:20-21 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8632:13-15 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8632:17-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8632:21-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8634:13-15 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8634:17-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8636:13-15 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8636:17-19 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8636:21-23 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8636:25-27 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8636:29-31 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8636:33-35 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8636:37-39 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8636:41-43 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8636:45-47 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8636:49-51 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8636:53-55 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8636:57-59 [1m[36m[39m[22m
+              harmony import specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/@aurelia/runtime-html/dist/esm/index.mjs] 8636:61-63 [1m[36m[39m[22m
+            from origin [1m[35m./node_modules/aurelia/dist/esm/index.mjs[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/runtime-html[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 7:0-897 [1m[36m(skipped side-effect-free modules)[39m[22m
+              harmony side effect evaluation [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 17:0-276 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 17:0-276 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 17:0-276 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 17:0-276 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 17:0-276 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 17:0-276 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 17:0-276 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 17:0-276 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 17:0-276 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 17:0-276 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 17:0-276 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 17:0-276 [1m[36m[39m[22m
+              harmony export imported specifier [1m[36m@aurelia/template-compiler[39m[22m [./node_modules/aurelia/dist/esm/index.mjs] 17:0-276 [1m[36m[39m[22m
+        modules by path [1m./node_modules/css-loader/dist/runtime/*.js[39m[22m 2.31 KiB
+          [1m./node_modules/css-loader/dist/runtime/api.js[39m[22m 2.25 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 4] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+            [1m[36m[used exports unknown][39m[22m
+            [1m[33mCommonJS bailout: module.exports is used directly at 7:0-14[39m[22m
+            harmony side effect evaluation [1m[36m../../../node_modules/css-loader/dist/runtime/api.js[39m[22m [./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./src/webparts/helloWorld/HelloWorldWebPart.module.scss] 3:0-95 [1m[36m[39m[22m
+            harmony import specifier [1m[36m../../../node_modules/css-loader/dist/runtime/api.js[39m[22m [./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./src/webparts/helloWorld/HelloWorldWebPart.module.scss] 4:30-57 [1m[36m[39m[22m
+            cjs self exports reference [1m[36mnull[39m[22m [./node_modules/css-loader/dist/runtime/api.js] 7:0-14 [1m[36m[39m[22m
+          [1m./node_modules/css-loader/dist/runtime/noSourceMaps.js[39m[22m 64 bytes {[1m[33mhello-world-web-part[39m[22m} [depth 4] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+            [1m[36m[used exports unknown][39m[22m
+            [1m[33mCommonJS bailout: module.exports is used directly at 3:0-14[39m[22m
+            harmony side effect evaluation [1m[36m../../../node_modules/css-loader/dist/runtime/noSourceMaps.js[39m[22m [./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./src/webparts/helloWorld/HelloWorldWebPart.module.scss] 2:0-117 [1m[36m[39m[22m
+            harmony import specifier [1m[36m../../../node_modules/css-loader/dist/runtime/noSourceMaps.js[39m[22m [./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./src/webparts/helloWorld/HelloWorldWebPart.module.scss] 4:58-98 [1m[36m[39m[22m
+            cjs self exports reference [1m[36mnull[39m[22m [./node_modules/css-loader/dist/runtime/noSourceMaps.js] 3:0-14 [1m[36m[39m[22m
+        [1m./node_modules/@microsoft/load-themed-styles/lib-commonjs/index.js[39m[22m 13 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 3] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+          [1m[36m[used exports unknown][39m[22m
+          [1m[33mCommonJS bailout: this is used directly at 4:16-20[39m[22m
+          cjs self exports reference [1m[36mnull[39m[22m [./node_modules/@microsoft/load-themed-styles/lib-commonjs/index.js] 4:16-20 [1m[36m[39m[22m
+          cjs self exports reference [1m[36mnull[39m[22m [./node_modules/@microsoft/load-themed-styles/lib-commonjs/index.js] 4:24-37 [1m[36m[39m[22m
+          cjs require [1m[36mC:\GitProjects\spfx-heft\node_modules\@microsoft\load-themed-styles\lib-commonjs\index.js[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.module.scss] 2:13-120 [1m[36m[39m[22m
+        [1m./node_modules/aurelia/dist/esm/index.mjs[39m[22m 2.96 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 1] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+          [1m[36m[exports: AppTask, ArrayLikeHandler, AttributePattern, AuSlotsInfo, Aurelia, Bindable, BindingBehavior, BindingCommand, BindingMode, ChildrenBinding, ComputedObserver, ConsoleSink, Controller, CustomAttribute, CustomElement, CustomExpression, DI, EventAggregator, FlushQueue, IAppRoot, IAttrMapper, IAttributeParser, IAttributePattern, IAuSlotWatcher, IAuSlotsInfo, IAurelia, IContainer, IController, IEventAggregator, IEventModifier, IEventTarget, IExpressionParser, IFlushQueue, IHistory, IKeyMapping, ILifecycleHooks, ILogger, IModifiedEventHandlerCreator, INode, IObservation, IObserverLocator, IPlatform, IRenderLocation, IRepeatableHandler, IRepeatableHandlerResolver, IServiceLocator, ISignaler, ITemplateCompiler, ITemplateCompilerHooks, ITemplateElementFactory, IViewFactory, IWindow, InstanceProvider, LifecycleHooks, LogLevel, LoggerConfiguration, NodeObserverLocator, PLATFORM, Platform, Registration, RuntimeTemplateCompilerImplementation, Scope, ShortHandBindingSyntax, StyleConfiguration, Task, TaskAbortError, TaskQueue, TemplateCompilerHooks, ValueConverter, ViewFactory, alias, all, allResources, attributePattern, batch, bindable, bindingBehavior, bindingCommand, bound, camelCase, capture, children, coercer, containerless, cssModules, customAttribute, customElement, default, emptyArray, emptyObject, factory, ignore, inject, isArrayIndex, kebabCase, lazy, lifecycleHooks, newInstanceForScope, newInstanceOf, noop, observable, optional, pascalCase, processContent, refs, registerAliases, renderer, resolve, resource, shadowCSS, singleton, slotted, subscriberCollection, templateCompilerHooks, templateController, toArray, transient, useShadowDOM, valueConverter, watch][39m[22m
+          [1m[36m[used exports unknown][39m[22m
+          [inactive] harmony side effect evaluation [1m[36maurelia[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 7:0-34 [1m[36m[39m[22m
+          harmony import specifier [1m[36maurelia[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 21:20-22:21 [1m[36m[39m[22m
+        [1m./node_modules/tslib/tslib.es6.mjs[39m[22m 17.2 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+          [1m[36m[exports: __addDisposableResource, __assign, __asyncDelegator, __asyncGenerator, __asyncValues, __await, __awaiter, __classPrivateFieldGet, __classPrivateFieldIn, __classPrivateFieldSet, __createBinding, __decorate, __disposeResources, __esDecorate, __exportStar, __extends, __generator, __importDefault, __importStar, __makeTemplateObject, __metadata, __param, __propKey, __read, __rest, __rewriteRelativeImportExtension, __runInitializers, __setFunctionName, __spread, __spreadArray, __spreadArrays, __values, default][39m[22m
+          [1m[36m[used exports unknown][39m[22m
+          [inactive] harmony side effect evaluation [1m[36mtslib[39m[22m [./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts] 2:0-75 [1m[36m[39m[22m
+          harmony import specifier [1m[36mtslib[39m[22m [./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts] 22:4-21 [1m[36m[39m[22m
+          harmony import specifier [1m[36mtslib[39m[22m [./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts] 25:8-20 [1m[36m[39m[22m
+          harmony import specifier [1m[36mtslib[39m[22m [./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts] 28:8-25 [1m[36m[39m[22m
+      modules by path [1m./src/webparts/helloWorld/[39m[22m 11.1 KiB
+        modules by path [1m./src/webparts/helloWorld/*.scss[39m[22m 1.93 KiB
+          ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]![1m./src/webparts/helloWorld/HelloWorldWebPart.module.scss[39m[22m 1.38 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 3] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+            [1m[36m[exports: default, helloWorld, links, teams, welcome, welcomeImage][39m[22m
+            [1m[36m[used exports unknown][39m[22m
+            cjs require [1m[36m!!../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./HelloWorldWebPart.module.scss[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.module.scss] 1:14-205 [1m[36m[39m[22m
+          [1m./src/webparts/helloWorld/HelloWorldWebPart.module.scss[39m[22m 560 bytes {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+            [1m[36m[used exports unknown][39m[22m
+            [1m[33mCommonJS bailout: module.exports is used directly at 9:19-33[39m[22m
+            cjs self exports reference [1m[36mnull[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.module.scss] 9:19-33 [1m[36m[39m[22m
+            harmony side effect evaluation [1m[36m../../HelloWorldWebPart.module.scss[39m[22m [./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts] 5:0-57 [1m[36m[39m[22m
+            harmony import specifier [1m[36m../../HelloWorldWebPart.module.scss[39m[22m [./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts] 13:26-32 [1m[36m[39m[22m
+            harmony import specifier [1m[36m../../HelloWorldWebPart.module.scss[39m[22m [./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts] 18:24-30 [1m[36m[39m[22m
+        modules by path [1m./src/webparts/helloWorld/platinaTeamsInbox/components/[39m[22m 5.97 KiB
+          [1m./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.html[39m[22m 600 bytes {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+            [1m[36m[exports: bindables, default, dependencies, name, register, template][39m[22m
+            [1m[36m[used exports unknown][39m[22m
+            harmony side effect evaluation [1m[36m./teams-inbox.html[39m[22m [./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts] 4:0-51 [1m[36m[39m[22m
+            harmony import specifier [1m[36m./teams-inbox.html[39m[22m [./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts] 7:42-54 [1m[36m[39m[22m
+          [1m./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts[39m[22m 5.38 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 1] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+            [1m[36m[exports: TeamsInbox][39m[22m
+            [1m[36m[used exports unknown][39m[22m
+            harmony side effect evaluation [1m[36m./platinaTeamsInbox/components/teams-inbox[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 8:0-72 [1m[36m[39m[22m
+            harmony import specifier [1m[36m./platinaTeamsInbox/components/teams-inbox[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 22:22-32 [1m[36m[39m[22m
+            harmony import specifier [1m[36m./platinaTeamsInbox/components/teams-inbox[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 24:23-33 [1m[36m[39m[22m
+        [1m./src/webparts/helloWorld/loc/en-us.resjson[39m[22m 3.17 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 1] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+          [1m[36m[exports: default][39m[22m
+          [1m[36m[used exports unknown][39m[22m
+          [inactive] harmony side effect evaluation [1m[36mHelloWorldWebPartStrings[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 6:0-47 [1m[36m[39m[22m
+          harmony import specifier [1m[36mHelloWorldWebPartStrings[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 42:82-115 [1m[36m[39m[22m
+          harmony import specifier [1m[36mHelloWorldWebPartStrings[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 42:118-146 [1m[36m[39m[22m
+          harmony import specifier [1m[36mHelloWorldWebPartStrings[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 45:82-116 [1m[36m[39m[22m
+          harmony import specifier [1m[36mHelloWorldWebPartStrings[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 45:119-148 [1m[36m[39m[22m
+          harmony import specifier [1m[36mHelloWorldWebPartStrings[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 49:82-114 [1m[36m[39m[22m
+          harmony import specifier [1m[36mHelloWorldWebPartStrings[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 49:117-147 [1m[36m[39m[22m
+          harmony import specifier [1m[36mHelloWorldWebPartStrings[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 52:45-71 [1m[36m[39m[22m
+          harmony import specifier [1m[36mHelloWorldWebPartStrings[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 57:68-105 [1m[36m[39m[22m
+          harmony import specifier [1m[36mHelloWorldWebPartStrings[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 57:108-140 [1m[36m[39m[22m
+          harmony import specifier [1m[36mHelloWorldWebPartStrings[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 79:37-68 [1m[36m[39m[22m
+          harmony import specifier [1m[36mHelloWorldWebPartStrings[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 83:39-61 [1m[36m[39m[22m
+          harmony import specifier [1m[36mHelloWorldWebPartStrings[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 86:43-72 [1m[36m[39m[22m
+    modules by path [1mexternal "@microsoft/[39m[22m 126 bytes
+      [1mexternal "@microsoft/sp-core-library"[39m[22m [@microsoft/sp-core-library] 42 bytes {[1m[33mhello-world-web-part[39m[22m} [depth 1] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+        harmony side effect evaluation [1m[36m@microsoft/sp-core-library[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 1:0-53 [1m[36m[39m[22m
+        harmony import specifier [1m[36m@microsoft/sp-core-library[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 72:15-28 [1m[36m[39m[22m
+      [1mexternal "@microsoft/sp-property-pane"[39m[22m [@microsoft/sp-property-pane] 42 bytes {[1m[33mhello-world-web-part[39m[22m} [depth 1] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+        harmony side effect evaluation [1m[36m@microsoft/sp-property-pane[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 2:0-68 [1m[36m[39m[22m
+        harmony import specifier [1m[36m@microsoft/sp-property-pane[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 85:32-53 [1m[36m[39m[22m
+      [1mexternal "@microsoft/sp-webpart-base"[39m[22m [@microsoft/sp-webpart-base] 42 bytes {[1m[33mhello-world-web-part[39m[22m} [depth 1] [1m[36m[dependent][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+        harmony side effect evaluation [1m[36m@microsoft/sp-webpart-base[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 3:0-67 [1m[36m[39m[22m
+        harmony import specifier [1m[36m@microsoft/sp-webpart-base[39m[22m [./src/webparts/helloWorld/HelloWorldWebPart.ts] 10:47-68 [1m[36m[39m[22m
+  runtime modules 1.13 KiB
+    [1mwebpack/runtime/compat get default export[39m[22m 267 bytes {[1m[33mhello-world-web-part[39m[22m} [1m[33m[code generated][39m[22m
+      [1m[36m[no exports][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+    [1mwebpack/runtime/define property getters[39m[22m 308 bytes {[1m[33mhello-world-web-part[39m[22m} [1m[33m[code generated][39m[22m
+      [1m[36m[no exports][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+    [1mwebpack/runtime/global[39m[22m 221 bytes {[1m[33mhello-world-web-part[39m[22m} [1m[33m[code generated][39m[22m
+      [1m[36m[no exports][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+    [1mwebpack/runtime/hasOwnProperty shorthand[39m[22m 88 bytes {[1m[33mhello-world-web-part[39m[22m} [1m[33m[code generated][39m[22m
+      [1m[36m[no exports][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+    [1mwebpack/runtime/make namespace object[39m[22m 274 bytes {[1m[33mhello-world-web-part[39m[22m} [1m[33m[code generated][39m[22m
+      [1m[36m[no exports][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+  [1m./src/webparts/helloWorld/HelloWorldWebPart.ts[39m[22m 4.01 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 0] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[exports: default][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    entry [1m[36m./src/webparts/helloWorld/HelloWorldWebPart.ts[39m[22m [1m[35mnull[39m[22m hello-world-web-part [1m[36m[39m[22m
+    [1m[36mnull[39m[22m [1m[35mnull[39m[22m [1m[36mused as library export[39m[22m
+  
+
+[1mLOG from webpack.Compiler[39m[22m
+<t> [1m[35mmake hook: 8188.6673 ms[39m[22m
+<t> [1m[35mfinish make hook: 0.1062 ms[39m[22m
+<t> [1m[35mfinish compilation: 12.5681 ms[39m[22m
+<t> [1m[35mseal compilation: 137.5138 ms[39m[22m
+<t> [1m[35mafterCompile hook: 0.0888 ms[39m[22m
+<t> [1m[35memitAssets: 3.5096 ms[39m[22m
+<t> [1m[35memitRecords: 0.0555 ms[39m[22m
+<t> [1m[35mdone hook: 0.0555 ms[39m[22m
+<t> [1m[35mbeginIdle: 0.0179 ms[39m[22m
+
+[1mLOG from webpack.Compilation[39m[22m
+<t> [1m[35mcompute affected modules: 0.4248 ms[39m[22m
+<t> [1m[35mfinish modules: 9.2704 ms[39m[22m
+<t> [1m[35mreport dependency errors and warnings: 2.2706 ms[39m[22m
+<t> [1m[35moptimize dependencies: 1.108 ms[39m[22m
+<t> [1m[35mcreate chunks: 3.456 ms[39m[22m
+<t> [1m[35mcompute affected modules with chunk graph: 0.1101 ms[39m[22m
+<t> [1m[35moptimize: 4.0663 ms[39m[22m
+    [1m22 modules hashed, 0 from cache (1 variants per module in average)[39m[22m
+<t> [1m[35mmodule hashing: 3.1986 ms[39m[22m
+    [1m100% code generated (22 generated, 0 from cache)[39m[22m
+<t> [1m[35mcode generation: 30.1565 ms[39m[22m
+<t> [1m[35mruntime requirements.modules: 1.3514 ms[39m[22m
+<t> [1m[35mruntime requirements.chunks: 1.3451 ms[39m[22m
+<t> [1m[35mruntime requirements.entries: 2.6477 ms[39m[22m
+<t> [1m[35mruntime requirements: 6.0108 ms[39m[22m
+<t> [1m[35mhashing: initialize hash: 0.0162 ms[39m[22m
+<t> [1m[35mhashing: sort chunks: 0.1495 ms[39m[22m
+<t> [1m[35mhashing: hash runtime modules: 1.3318 ms[39m[22m
+<t> [1m[35mhashing: hash chunks: 2.9192 ms[39m[22m
+<t> [1m[35mhashing: hash digest: 0.065 ms[39m[22m
+<t> [1m[35mhashing: process full hash modules: 0.0022 ms[39m[22m
+<t> [1m[35mhashing: 5.4285 ms[39m[22m
+    [1m100% code generated (5 generated, 0 from cache)[39m[22m
+<t> [1m[35mrecord hash: 0.0376 ms[39m[22m
+<t> [1m[35mmodule assets: 0.2109 ms[39m[22m
+<t> [1m[35mcreate chunk assets: 10.554 ms[39m[22m
+<t> [1m[35mprocess assets: 71.1709 ms[39m[22m
+
+[1mLOG from webpack.ResolverCachePlugin[39m[22m
+    [1m73% really resolved (83 real resolves with 0 cached but invalid, 31 cached valid, 0 concurrent)[39m[22m
+
+[1mLOG from webpack.FlagDependencyExportsPlugin[39m[22m
+<t> [1m[35mrestore cached provided exports: 1.0142 ms[39m[22m
+<t> [1m[35mfigure out provided exports: 6.2098 ms[39m[22m
+    [1m82% of exports of modules have been determined (4 no declared exports, 15 not cached, 3 flagged uncacheable, 0 from cache, 0 from mem cache, 2 additional calculations due to dependencies)[39m[22m
+<t> [1m[35mstore provided exports into cache: 0.5549 ms[39m[22m
+
+[1mLOG from webpack.SideEffectsFlagPlugin[39m[22m
+<t> [1m[35mupdate dependencies: 0.8969 ms[39m[22m
+
+[1mLOG from webpack.buildChunkGraph[39m[22m
+<t> [1m[35mvisitModules: prepare: 1.1386 ms[39m[22m
+<t> [1m[35mvisitModules: visiting: 1.9486 ms[39m[22m
+    [1m50 queue items processed (22 blocks)[39m[22m
+    [1m0 chunk groups connected[39m[22m
+    [1m0 chunk groups processed for merging (0 module sets, 0 forked, 0 + 0 modules forked, 0 + 0 modules merged into fork, 0 resulting modules)[39m[22m
+    [1m0 chunk group info updated (0 already connected chunk groups reconnected)[39m[22m
+<t> [1m[35mvisitModules: 2.5671 ms[39m[22m
+<t> [1m[35mconnectChunkGroups: 0.0642 ms[39m[22m
+<t> [1m[35mcleanup: 0.0289 ms[39m[22m
+
+[1mLOG from webpack.SplitChunksPlugin[39m[22m
+<t> [1m[35mprepare: 0.0214 ms[39m[22m
+<t> [1m[35mmodules: 0.876 ms[39m[22m
+<t> [1m[35mqueue: 0.0019 ms[39m[22m
+<t> [1m[35mmaxSize: 0.0044 ms[39m[22m
+
+[1mLOG from webpack.FileSystemInfo[39m[22m
+    [1m102 new snapshots created[39m[22m
+    [1m0% root snapshot uncached (0 / 31)[39m[22m
+    [1m0% children snapshot uncached (0 / 0)[39m[22m
+    [1m0 entries tested[39m[22m
+    [1mFile info in cache: 166 timestamps 0 hashes 0 timestamp hash combinations[39m[22m
+    [1mFile timestamp snapshot optimization: 66% (244/372) entries shared via 3 shared snapshots (60 times referenced)[39m[22m
+    [1mDirectory info in cache: 0 timestamps 0 hashes 0 timestamp hash combinations[39m[22m
+    [1mMissing items snapshot optimization: 96% (681/708) entries shared via 39 shared snapshots (161 times referenced)[39m[22m
+    [1mManaged items info in cache: 187 items[39m[22m
+    [1mManaged items snapshot optimization: 75% (436/580) entries shared via 10 shared snapshots (37 times referenced)[39m[22m
+    [1mManaged files snapshot optimization: 92% (3399/3687) entries shared via 15 shared snapshots (33 times referenced)[39m[22m
+    [1mManaged missing snapshot optimization: 87% (671/773) entries shared via 45 shared snapshots (113 times referenced)[39m[22m
+
+2025-12-09 [1m14:16:18[39m[22m: webpack 5.95.0 compiled [1m[32msuccessfully[39m[22m in 8360 ms (a5c7c124558d18616556)

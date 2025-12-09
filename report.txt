@@ -1,0 +1,140 @@
+Generating SPFx webpack config for {
+  'hello-world-web-part': './src/webparts/helloWorld/HelloWorldWebPart.ts'
+} {
+  HelloWorldWebPartStrings: 'C:\\GitProjects\\spfx-heft\\src\\webparts\\helloWorld\\loc\\en-us.resjson'
+} C:\GitProjects\spfx-heft/dist
+PublicPath: [1mauto[39m[22m
+assets by status 680 KiB [1m[32m[cached][39m[22m 1 asset
+assets by path [1m[32m../lib/webparts/helloWorld/[39m[22m 1.96 KiB
+  assets by path [1m[32m../lib/webparts/helloWorld/platinaTeamsInbox/components/[39m[22m 413 bytes
+    asset [1m[32m../lib/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.d.ts.map[39m[22m 242 bytes [1m[33m[compared for emit][39m[22m
+    asset [1m[32m../lib/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.d.ts[39m[22m 171 bytes [1m[33m[compared for emit][39m[22m
+  asset [1m[32m../lib/webparts/helloWorld/HelloWorldWebPart.d.ts[39m[22m 841 bytes [1m[33m[compared for emit][39m[22m
+  asset [1m[32m../lib/webparts/helloWorld/HelloWorldWebPart.d.ts.map[39m[22m 757 bytes [1m[33m[compared for emit][39m[22m
+asset [1m[32md4a9c6af-4fbd-4462-8a39-7d43a05fe76e.manifest.json[39m[22m 1.46 KiB [1m[33m[compared for emit][39m[22m
+Entrypoint [1mhello-world-web-part[39m[22m [1m[33m[big][39m[22m 680 KiB = [1m[32mhello-world-web-part_en-us_fa70d1ee133a50f813da.js[39m[22m
+chunk {[1m[33mhello-world-web-part[39m[22m} (runtime: hello-world-web-part) [1m[32mhello-world-web-part_en-us_fa70d1ee133a50f813da.js[39m[22m (hello-world-web-part) 558 KiB (javascript) 1.13 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+  > ./src/webparts/helloWorld/HelloWorldWebPart.ts [1m[39m[22m hello-world-web-part
+cacheable modules 558 KiB
+  modules by path [1m./node_modules/[39m[22m 542 KiB
+    modules by path [1m./node_modules/@aurelia/[39m[22m 507 KiB
+      [1m./node_modules/@aurelia/kernel/dist/esm/index.mjs[39m[22m 49.8 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: AnalyzedModule, ConsoleSink, ContainerConfiguration, DI, DefaultLogEvent, DefaultLogEventFactory, DefaultLogger, DefaultResolver, EventAggregator, IContainer, IEventAggregator, ILogConfig, ILogEventFactory, ILogger, IModuleLoader, IPlatform, IServiceLocator, ISink, InstanceProvider, LogConfig, LogLevel, LoggerConfiguration, ModuleItem, Protocol, Registration, aliasedResourcesRegistry, all, allResources, areEqual, bound, camelCase, createImplementationRegister, createLookup, createResolver, emptyArray, emptyObject, factory, firstDefined, format, fromAnnotationOrDefinitionOrTypeOrDefault, fromAnnotationOrTypeOrDefault, fromDefinitionOrDefault, getPrototypeChain, getResourceKeyFor, ignore, inject, isArray, isArrayIndex, isFunction, isMap, isNativeFunction, isNumber, isObject, isObjectOrFunction, isPromise, isSet, isString, isSymbol, kebabCase, last, lazy, mergeArrays, newInstanceForScope, newInstanceOf, noop, onResolve, onResolveAll, optional, optionalResource, own, pascalCase, registrableMetadataKey, resolve, resource, resourceBaseName, singleton, sink, toArray, transient][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+      [1m./node_modules/@aurelia/metadata/dist/esm/index.mjs[39m[22m 1.29 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: Metadata, initializeTC39Metadata][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+      [1m./node_modules/@aurelia/runtime-html/dist/esm/index.mjs[39m[22m 240 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: AdoptedStyleSheetsStyles, AppRoot, AppTask, ArrayLikeHandler, AttrBindingBehavior, AttrMapper, AttributeBinding, AttributeBindingRenderer, AttributeNSAccessor, AuCompose, AuSlot, AuSlotsInfo, Aurelia, Bindable, BindableDefinition, BindingBehavior, BindingBehaviorDefinition, BindingCommand, BindingMode, BindingModeBehavior, BindingTargetSubscriber, CSSModulesProcessorRegistry, Case, CheckedObserver, ChildrenBinding, ClassAttributeAccessor, ComputedWatcher, ContentBinding, Controller, CustomAttribute, CustomAttributeDefinition, CustomAttributeRenderer, CustomElement, CustomElementDefinition, CustomElementRenderer, DataAttributeAccessor, DebounceBindingBehavior, DefaultBindingLanguage, DefaultBindingSyntax, DefaultCase, DefaultComponents, DefaultRenderers, DefaultResources, Else, EventModifier, EventModifierRegistration, ExpressionWatcher, FlushQueue, Focus, FragmentNodeSequence, FromViewBindingBehavior, FulfilledTemplateController, IAppRoot, IAppTask, IAuSlotWatcher, IAuSlotsInfo, IAurelia, IController, IEventModifier, IEventTarget, IFlushQueue, IHistory, IHydrationContext, IKeyMapping, ILifecycleHooks, IListenerBindingOptions, ILocation, IModifiedEventHandlerCreator, INode, IPlatform, IRenderLocation, IRenderer, IRendering, IRepeatableHandler, IRepeatableHandlerResolver, ISVGAnalyzer, ISanitizer, IShadowDOMGlobalStyles, IShadowDOMStyleFactory, IShadowDOMStyles, ISignaler, IViewFactory, IWindow, If, InterpolationBinding, InterpolationBindingRenderer, InterpolationPartBinding, IteratorBindingRenderer, LetBinding, LetElementRenderer, LifecycleHooks, LifecycleHooksDefinition, LifecycleHooksEntry, ListenerBinding, ListenerBindingOptions, ListenerBindingRenderer, MountTarget, NodeObserverLocator, NoopSVGAnalyzer, OneTimeBindingBehavior, PendingTemplateController, Portal, PromiseTemplateController, PropertyBinding, PropertyBindingRenderer, RefBinding, RefBindingRenderer, RejectedTemplateController, Rendering, Repeat, RuntimeTemplateCompilerImplementation, SVGAnalyzer, SanitizeValueConverter, SelectValueObserver, SelfBindingBehavior, SetAttributeRenderer, SetClassAttributeRenderer, SetPropertyRenderer, SetStyleAttributeRenderer, ShadowDOMRegistry, ShortHandBindingSyntax, SignalBindingBehavior, SpreadRenderer, StandardConfiguration, State, StyleAttributeAccessor, StyleConfiguration, StyleElementStyles, StylePropertyBindingRenderer, Switch, TemplateControllerRenderer, TextBindingRenderer, ThrottleBindingBehavior, ToViewBindingBehavior, TwoWayBindingBehavior, UpdateTriggerBindingBehavior, ValueAttributeObserver, ValueConverter, ValueConverterDefinition, ViewFactory, Watch, With, alias, bindable, bindingBehavior, capture, children, coercer, containerless, convertToRenderLocation, cssModules, customAttribute, customElement, getEffectiveParentNode, isCustomElementController, isCustomElementViewModel, isRenderLocation, lifecycleHooks, mixinAstEvaluator, mixinUseScope, mixingBindingLimited, processContent, refs, registerAliases, registerHostNode, renderer, setEffectiveParentNode, shadowCSS, slotted, templateController, useShadowDOM, valueConverter, watch][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+      [1m./node_modules/@aurelia/template-compiler/dist/esm/index.mjs[39m[22m 61.7 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: AtPrefixedTriggerAttributePattern, AttrBindingCommand, AttrSyntax, AttributeBindingInstruction, AttributeParser, AttributePattern, BindingCommand, BindingCommandDefinition, BindingMode, CaptureBindingCommand, ClassBindingCommand, ColonPrefixedBindAttributePattern, DefaultBindingCommand, DotSeparatedAttributePattern, EventAttributePattern, ForBindingCommand, FromViewBindingCommand, HydrateAttributeInstruction, HydrateElementInstruction, HydrateLetElementInstruction, HydrateTemplateController, IAttrMapper, IAttributeParser, IAttributePattern, IBindingCommandResolver, IInstruction, IResourceResolver, ISyntaxInterpreter, ITemplateCompiler, ITemplateCompilerHooks, ITemplateElementFactory, InstructionType, InterpolationInstruction, Interpretation, IteratorBindingInstruction, LetBindingInstruction, ListenerBindingInstruction, MultiAttrInstruction, OneTimeBindingCommand, PropertyBindingInstruction, RefAttributePattern, RefBindingCommand, RefBindingInstruction, SetAttributeInstruction, SetClassAttributeInstruction, SetPropertyInstruction, SetStyleAttributeInstruction, SpreadElementPropBindingInstruction, SpreadTransferedBindingInstruction, SpreadValueBindingCommand, SpreadValueBindingInstruction, StyleBindingCommand, StylePropertyBindingInstruction, SyntaxInterpreter, TemplateCompiler, TemplateCompilerHooks, TextBindingInstruction, ToViewBindingCommand, TriggerBindingCommand, TwoWayBindingCommand, attributePattern, bindingCommand, generateElementName, templateCompilerHooks][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+      [1m./node_modules/@aurelia/expression-parser/dist/esm/index.mjs[39m[22m 49.9 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: AccessBoundaryExpression, AccessGlobalExpression, AccessKeyedExpression, AccessMemberExpression, AccessScopeExpression, AccessThisExpression, ArrayBindingPattern, ArrayLiteralExpression, ArrowFunction, AssignExpression, BinaryExpression, BindingBehaviorExpression, BindingIdentifier, CallFunctionExpression, CallGlobalExpression, CallMemberExpression, CallScopeExpression, ConditionalExpression, CustomExpression, DestructuringAssignmentExpression, DestructuringAssignmentRestExpression, DestructuringAssignmentSingleExpression, ExpressionParser, ForOfStatement, IExpressionParser, Interpolation, NewExpression, ObjectBindingPattern, ObjectLiteralExpression, PrimitiveLiteralExpression, TaggedTemplateExpression, TemplateExpression, UnaryExpression, Unparser, ValueConverterExpression, astVisit, parseExpression][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+      [1m./node_modules/@aurelia/runtime/dist/esm/index.mjs[39m[22m 89.7 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: AccessorType, BindingContext, CollectionLengthObserver, CollectionSizeObserver, ComputedObserver, ConnectableSwitcher, DirtyCheckProperty, DirtyCheckSettings, DirtyChecker, ICoercionConfiguration, IComputedObserverLocator, IDirtyChecker, INodeObserverLocator, IObservation, IObserverLocator, Observation, ObserverLocator, PrimitiveObserver, PropertyAccessor, ProxyObservable, RecurringTask, Scope, SetterObserver, Task, TaskAbortError, astAssign, astBind, astEvaluate, astUnbind, batch, cloneIndexMap, computed, connectable, copyIndexMap, createIndexMap, getCollectionObserver, getObserverLookup, getRecurringTasks, isIndexMap, mixinNoopAstEvaluator, nowrap, observable, queueAsyncTask, queueRecurringTask, queueTask, runTasks, subscriberCollection, tasksSettled][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+      [1m./node_modules/@aurelia/platform-browser/dist/esm/index.mjs[39m[22m 1.9 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: BrowserPlatform][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+      [1m./node_modules/@aurelia/platform/dist/esm/index.mjs[39m[22m 12.6 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: Platform, Task, TaskAbortError, TaskQueue, ensureEmpty, reportTaskQueue][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+    modules by path [1m./node_modules/css-loader/dist/runtime/*.js[39m[22m 2.31 KiB
+      [1m./node_modules/css-loader/dist/runtime/noSourceMaps.js[39m[22m 64 bytes {[1m[33mhello-world-web-part[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+        [1m[33mCommonJS bailout: module.exports is used directly at 3:0-14[39m[22m
+      [1m./node_modules/css-loader/dist/runtime/api.js[39m[22m 2.25 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+        [1m[33mCommonJS bailout: module.exports is used directly at 7:0-14[39m[22m
+    [1m./node_modules/aurelia/dist/esm/index.mjs[39m[22m 2.96 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 1] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m[36m[exports: AppTask, ArrayLikeHandler, AttributePattern, AuSlotsInfo, Aurelia, Bindable, BindingBehavior, BindingCommand, BindingMode, ChildrenBinding, ComputedObserver, ConsoleSink, Controller, CustomAttribute, CustomElement, CustomExpression, DI, EventAggregator, FlushQueue, IAppRoot, IAttrMapper, IAttributeParser, IAttributePattern, IAuSlotWatcher, IAuSlotsInfo, IAurelia, IContainer, IController, IEventAggregator, IEventModifier, IEventTarget, IExpressionParser, IFlushQueue, IHistory, IKeyMapping, ILifecycleHooks, ILogger, IModifiedEventHandlerCreator, INode, IObservation, IObserverLocator, IPlatform, IRenderLocation, IRepeatableHandler, IRepeatableHandlerResolver, IServiceLocator, ISignaler, ITemplateCompiler, ITemplateCompilerHooks, ITemplateElementFactory, IViewFactory, IWindow, InstanceProvider, LifecycleHooks, LogLevel, LoggerConfiguration, NodeObserverLocator, PLATFORM, Platform, Registration, RuntimeTemplateCompilerImplementation, Scope, ShortHandBindingSyntax, StyleConfiguration, Task, TaskAbortError, TaskQueue, TemplateCompilerHooks, ValueConverter, ViewFactory, alias, all, allResources, attributePattern, batch, bindable, bindingBehavior, bindingCommand, bound, camelCase, capture, children, coercer, containerless, cssModules, customAttribute, customElement, default, emptyArray, emptyObject, factory, ignore, inject, isArrayIndex, kebabCase, lazy, lifecycleHooks, newInstanceForScope, newInstanceOf, noop, observable, optional, pascalCase, processContent, refs, registerAliases, renderer, resolve, resource, shadowCSS, singleton, slotted, subscriberCollection, templateCompilerHooks, templateController, toArray, transient, useShadowDOM, valueConverter, watch][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+    [1m./node_modules/tslib/tslib.es6.mjs[39m[22m 17.2 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m[36m[exports: __addDisposableResource, __assign, __asyncDelegator, __asyncGenerator, __asyncValues, __await, __awaiter, __classPrivateFieldGet, __classPrivateFieldIn, __classPrivateFieldSet, __createBinding, __decorate, __disposeResources, __esDecorate, __exportStar, __extends, __generator, __importDefault, __importStar, __makeTemplateObject, __metadata, __param, __propKey, __read, __rest, __rewriteRelativeImportExtension, __runInitializers, __setFunctionName, __spread, __spreadArray, __spreadArrays, __values, default][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+    [1m./node_modules/@microsoft/load-themed-styles/lib-commonjs/index.js[39m[22m 13 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+      [1m[33mCommonJS bailout: this is used directly at 4:16-20[39m[22m
+  modules by path [1m./src/webparts/helloWorld/[39m[22m 15.1 KiB
+    modules by path [1m./src/webparts/helloWorld/platinaTeamsInbox/components/[39m[22m 5.97 KiB
+      [1m./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.ts[39m[22m 5.38 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 1] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: TeamsInbox][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+      [1m./src/webparts/helloWorld/platinaTeamsInbox/components/teams-inbox.html[39m[22m 600 bytes {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: bindables, default, dependencies, name, register, template][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+    modules by path [1m./src/webparts/helloWorld/*.scss[39m[22m 1.96 KiB
+      [1m./src/webparts/helloWorld/HelloWorldWebPart.module.scss[39m[22m 531 bytes {[1m[33mhello-world-web-part[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+        [1m[33mCommonJS bailout: module.exports is used directly at 9:19-33[39m[22m
+      ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/sass-loader/dist/cjs.js![1m./src/webparts/helloWorld/HelloWorldWebPart.module.scss[39m[22m 1.45 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: default, helloWorld, links, teams, welcome, welcomeImage][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+    [1m./src/webparts/helloWorld/HelloWorldWebPart.ts[39m[22m 4.01 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 0] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m[36m[exports: default][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+    [1m./src/webparts/helloWorld/loc/en-us.resjson[39m[22m 3.17 KiB {[1m[33mhello-world-web-part[39m[22m} [depth 1] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m[36m[exports: default][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+runtime modules 1.13 KiB
+  [1mwebpack/runtime/compat get default export[39m[22m 267 bytes {[1m[33mhello-world-web-part[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/define property getters[39m[22m 308 bytes {[1m[33mhello-world-web-part[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/global[39m[22m 221 bytes {[1m[33mhello-world-web-part[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/hasOwnProperty shorthand[39m[22m 88 bytes {[1m[33mhello-world-web-part[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/make namespace object[39m[22m 274 bytes {[1m[33mhello-world-web-part[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+modules by path [1mexternal "@microsoft/[39m[22m 126 bytes
+  [1mexternal "@microsoft/sp-core-library"[39m[22m [@microsoft/sp-core-library] 42 bytes {[1m[33mhello-world-web-part[39m[22m} [depth 1] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mexternal "@microsoft/sp-property-pane"[39m[22m [@microsoft/sp-property-pane] 42 bytes {[1m[33mhello-world-web-part[39m[22m} [depth 1] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mexternal "@microsoft/sp-webpart-base"[39m[22m [@microsoft/sp-webpart-base] 42 bytes {[1m[33mhello-world-web-part[39m[22m} [depth 1] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+
+[1mLOG from webpack.Compilation[39m[22m
+    [1m22 modules hashed, 0 from cache (1 variants per module in average)[39m[22m
+    [1m100% code generated (22 generated, 0 from cache)[39m[22m
+    [1m100% code generated (5 generated, 0 from cache)[39m[22m
++ 24 hidden lines
+
+[1mLOG from webpack.ResolverCachePlugin[39m[22m
+    [1m73% really resolved (83 real resolves with 0 cached but invalid, 31 cached valid, 0 concurrent)[39m[22m
+
+[1mLOG from webpack.FlagDependencyExportsPlugin[39m[22m
+    [1m82% of exports of modules have been determined (4 no declared exports, 15 not cached, 3 flagged uncacheable, 0 from cache, 0 from mem cache, 2 additional calculations due to dependencies)[39m[22m
++ 3 hidden lines
+
+[1mLOG from webpack.buildChunkGraph[39m[22m
+    [1m50 queue items processed (22 blocks)[39m[22m
+    [1m0 chunk groups connected[39m[22m
+    [1m0 chunk groups processed for merging (0 module sets, 0 forked, 0 + 0 modules forked, 0 + 0 modules merged into fork, 0 resulting modules)[39m[22m
+    [1m0 chunk group info updated (0 already connected chunk groups reconnected)[39m[22m
++ 5 hidden lines
+
+[1mLOG from webpack.FileSystemInfo[39m[22m
+    [1m102 new snapshots created[39m[22m
+    [1m0% root snapshot uncached (0 / 31)[39m[22m
+    [1m0% children snapshot uncached (0 / 0)[39m[22m
+    [1m0 entries tested[39m[22m
+    [1mFile info in cache: 166 timestamps 0 hashes 0 timestamp hash combinations[39m[22m
+    [1mFile timestamp snapshot optimization: 66% (244/372) entries shared via 3 shared snapshots (60 times referenced)[39m[22m
+    [1mDirectory info in cache: 0 timestamps 0 hashes 0 timestamp hash combinations[39m[22m
+    [1mMissing items snapshot optimization: 96% (681/708) entries shared via 39 shared snapshots (161 times referenced)[39m[22m
+    [1mManaged items info in cache: 187 items[39m[22m
+    [1mManaged items snapshot optimization: 75% (436/580) entries shared via 10 shared snapshots (37 times referenced)[39m[22m
+    [1mManaged files snapshot optimization: 92% (3399/3687) entries shared via 15 shared snapshots (33 times referenced)[39m[22m
+    [1mManaged missing snapshot optimization: 87% (671/773) entries shared via 45 shared snapshots (113 times referenced)[39m[22m
+
+2025-12-09 [1m01:35:07[39m[22m: webpack 5.95.0 compiled [1m[32msuccessfully[39m[22m in 6665 ms (ac6346426b162e94bff7)

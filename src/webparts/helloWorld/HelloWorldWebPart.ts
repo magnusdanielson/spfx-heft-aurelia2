@@ -7,7 +7,7 @@ import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import type { IReadonlyTheme } from '@microsoft/sp-component-base';
 //import { escape } from '@microsoft/sp-lodash-subset';
 
-import styles from './HelloWorldWebPart.module.scss';
+//import styles from './HelloWorldWebPart.module.scss';
 import strings from 'HelloWorldWebPartStrings';
 import { Aurelia } from 'aurelia';
 import { TeamsInbox } from './platinaTeamsInbox/components/teams-inbox';
@@ -15,14 +15,16 @@ export interface IHelloWorldWebPartProps {
   description: string;
 }
 
+//console.log('SCSS module import:', styles);
+
 export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorldWebPartProps> {
 
   private _isDarkTheme: boolean = false;
   private _environmentMessage: string = '';
-
+  
   public async render(): Promise<void> {
-    console.log('HelloWorldWebPart render called', styles);
-      this.domElement.innerHTML = `<div id="aurelia-${this.instanceId}" class="${this.instanceId} ${styles.helloWorld}"  ></div>`;
+    console.log('HelloWorldWebPart render called');
+      this.domElement.innerHTML = `<div id="aurelia-${this.instanceId}" class="${this.instanceId}"  ></div>`;
 
     const el:HTMLElement = document.getElementById("aurelia-" + this.instanceId)!;
     console.log('Enhancing Aurelia component in element:', el);

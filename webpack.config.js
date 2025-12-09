@@ -1,12 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
-function _export(target, all) {
-    for(var name in all)Object.defineProperty(target, name, {
-        enumerable: true,
-        get: all[name]
-    });
+function _export(target, all)
+{
+  for (var name in all) Object.defineProperty(target, name, {
+    enumerable: true,
+    get: all[name]
+  });
 }
 _export(exports, {
     /**
@@ -38,15 +39,18 @@ _export(exports, {
  * const config = generateConfig({ production: true });
  * // Results in AMD modules loadable by SharePoint with proper manifests
  * ```
- */ default: function() {
-        return generateConfig;
-    },
-    getLinkedSPFxExternals: function() {
-        return getLinkedSPFxExternals;
-    },
-    getSPFxWebpackConfig: function() {
-        return getSPFxWebpackConfig;
-    }
+ */ default: function ()
+  {
+    return generateConfig;
+  },
+  getLinkedSPFxExternals: function ()
+  {
+    return getLinkedSPFxExternals;
+  },
+  getSPFxWebpackConfig: function ()
+  {
+    return getSPFxWebpackConfig;
+  }
 });
 const _setwebpackpublicpathplugin = require("@rushstack/set-webpack-public-path-plugin");
 const glob = require('glob');
@@ -55,6 +59,7 @@ const { ManifestPlugin, CumulativeManifestProcessor, DependencyDiscoveryMode } =
 const { JsonFile } = require('@rushstack/node-core-library');
 const { Terminal, ConsoleTerminalProvider } = require('@rushstack/terminal');
 const { LocalizationPlugin } = require('@rushstack/webpack5-localization-plugin');
+
 // Configuration constants
 const DEFAULT_LOCALE = 'en-us';
 const TEMP_FOLDER_NAME = 'temp';
@@ -74,6 +79,29 @@ const bundles = [
 const localization = {
   "HelloWorldWebPartStrings": "src/webparts/helloWorld/loc/{locale}.resjson"
 };
+const sassLoader = {
+  loader: 'sass-loader',
+  options: {
+    sassOptions: {
+      includePaths: ['node_modules']
+    }
+  }
+};
+
+const cssLoader = {
+  loader: 'css-loader'
+};
+
+const postcssLoader = {
+  loader: 'postcss-loader',
+  options: {
+    postcssOptions: {
+      plugins: [
+        'autoprefixer'
+      ]
+    }
+  }
+};
 /**
  * Generates the webpack entry configuration and bundle entries from the provided bundle configuration.
  *
@@ -91,31 +119,34 @@ const localization = {
  * // entry: { 'my-bundle': './src/index.ts' }
  * // bundleEntries: [{ bundleName: 'my-bundle', components: { ... } }]
  * ```
- */ function getBundleConfig() {
-    const entry = {};
-    const bundleEntries = [];
-    for (const bundle of bundles){
-        entry[bundle.bundleName] = bundle.components[0].entrypoint;
-        const bundleEntry = {
-            bundleName: bundle.bundleName,
-            components: {}
-        };
-        for (const component of bundle.components){
-            const manifestData = JsonFile.load(component.manifest);
-            bundleEntry.components[manifestData.id] = {
-                manifestData,
-                manifestPath: `${__dirname}/${component.manifest}`,
-                exportName: undefined,
-                entrypoint: `${__dirname}/${component.entrypoint}`,
-                manifest: component.manifest
-            };
-        }
-        bundleEntries.push(bundleEntry);
-    }
-    return {
-        entry,
-        bundleEntries
+ */ function getBundleConfig()
+{
+  const entry = {};
+  const bundleEntries = [];
+  for (const bundle of bundles)
+  {
+    entry[bundle.bundleName] = bundle.components[0].entrypoint;
+    const bundleEntry = {
+      bundleName: bundle.bundleName,
+      components: {}
     };
+    for (const component of bundle.components)
+    {
+      const manifestData = JsonFile.load(component.manifest);
+      bundleEntry.components[manifestData.id] = {
+        manifestData,
+        manifestPath: `${__dirname}/${component.manifest}`,
+        exportName: undefined,
+        entrypoint: `${__dirname}/${component.entrypoint}`,
+        manifest: component.manifest
+      };
+    }
+    bundleEntries.push(bundleEntry);
+  }
+  return {
+    entry,
+    bundleEntries
+  };
 }
 /**
  * Configures localization settings for webpack including translated strings and aliases.
@@ -134,198 +165,233 @@ const localization = {
  * // translatedStrings: { 'fr-fr': { './strings/en-us.resjson': './strings/fr-fr.resjson' } }
  * // alias: { 'MyStrings': '/path/to/strings/en-us.resjson' }
  * ```
- */ function getLocalizationConfig() {
-    const translatedStrings = {};
-    const alias = {};
-    for (const [resourceKey, resourcePattern] of Object.entries(localization)){
-        const defaultLocalePath = resourcePattern.replace('{locale}', DEFAULT_LOCALE);
-        alias[resourceKey] = path.resolve(__dirname, defaultLocalePath);
-        const localizedFiles = glob.sync(resourcePattern.replace('{locale}', '*'), {
-            cwd: __dirname
-        });
-        for (const localizedFile of localizedFiles){
-            const locale = path.basename(localizedFile, path.extname(localizedFile));
-            if (locale === DEFAULT_LOCALE) {
-                continue;
-            }
-            translatedStrings[locale] = translatedStrings[locale] || {};
-            translatedStrings[locale][defaultLocalePath] = `./${localizedFile}`;
-        }
-    }
-    return {
-        translatedStrings,
-        alias
-    };
-}
-function getLinkedSPFxExternals(terminal, rootPath) {
-    const cumulativeManifestProcessor = new CumulativeManifestProcessor({
-        terminal,
-        rootPath,
-        tempFolderName: TEMP_FOLDER_NAME,
-        distFolderName: DIST_FOLDER_NAME
+ */ function getLocalizationConfig()
+{
+  const translatedStrings = {};
+  const alias = {};
+  for (const [resourceKey, resourcePattern] of Object.entries(localization))
+  {
+    const defaultLocalePath = resourcePattern.replace('{locale}', DEFAULT_LOCALE);
+    alias[resourceKey] = path.resolve(__dirname, defaultLocalePath);
+    const localizedFiles = glob.sync(resourcePattern.replace('{locale}', '*'), {
+      cwd: __dirname
     });
-    const referencedProjects = cumulativeManifestProcessor.discoverManifests(rootPath, DependencyDiscoveryMode.deepSparseIgnoreFirstProject);
-    const linkedExternals = new Map(Object.entries(referencedProjects).flatMap(([manifestId, versionMap])=>Object.values(versionMap).filter(({ packageName, isAssembly })=>packageName && !isAssembly).map(({ packageName, manifestData: { version } })=>[
-                packageName,
-                {
-                    id: manifestId,
-                    name: packageName,
-                    version
-                }
-            ])));
-    const externals = [
-        ...new Set(linkedExternals.keys())
-    ];
-    return {
-        referencedProjects,
-        cumulativeManifestProcessor,
-        linkedExternals,
-        externals
-    };
+    for (const localizedFile of localizedFiles)
+    {
+      const locale = path.basename(localizedFile, path.extname(localizedFile));
+      if (locale === DEFAULT_LOCALE)
+      {
+        continue;
+      }
+      translatedStrings[locale] = translatedStrings[locale] || {};
+      translatedStrings[locale][defaultLocalePath] = `./${localizedFile}`;
+    }
+  }
+  return {
+    translatedStrings,
+    alias
+  };
 }
-function getSPFxWebpackConfig({ production }) {
-    const terminal = new Terminal(new ConsoleTerminalProvider());
-    const { referencedProjects, cumulativeManifestProcessor, linkedExternals, externals } = getLinkedSPFxExternals(terminal, __dirname);
-    const { translatedStrings, alias } = getLocalizationConfig();
-    const { entry, bundleEntries } = getBundleConfig();
-    const plugins = [
-        // LocalizationPlugin: Handles internationalization (i18n)
-        // - Processes .resjson files and creates localized bundles
-        // - Enables dynamic locale switching at runtime
-        // - Creates webpack resolve aliases for default locale strings
-        new LocalizationPlugin({
-            localizedData: {
-                defaultLocale: {
-                    localeName: DEFAULT_LOCALE
-                },
-                translatedStrings
+function getLinkedSPFxExternals(terminal, rootPath)
+{
+  const cumulativeManifestProcessor = new CumulativeManifestProcessor({
+    terminal,
+    rootPath,
+    tempFolderName: TEMP_FOLDER_NAME,
+    distFolderName: DIST_FOLDER_NAME
+  });
+  const referencedProjects = cumulativeManifestProcessor.discoverManifests(rootPath, DependencyDiscoveryMode.deepSparseIgnoreFirstProject);
+  const linkedExternals = new Map(Object.entries(referencedProjects).flatMap(([manifestId, versionMap]) => Object.values(versionMap).filter(({ packageName, isAssembly }) => packageName && !isAssembly).map(({ packageName, manifestData: { version } }) => [
+    packageName,
+    {
+      id: manifestId,
+      name: packageName,
+      version
+    }
+  ])));
+  const externals = [
+    ...new Set(linkedExternals.keys())
+  ];
+  return {
+    referencedProjects,
+    cumulativeManifestProcessor,
+    linkedExternals,
+    externals
+  };
+}
+function getSPFxWebpackConfig({ production })
+{
+  const terminal = new Terminal(new ConsoleTerminalProvider());
+  const { referencedProjects, cumulativeManifestProcessor, linkedExternals, externals } = getLinkedSPFxExternals(terminal, __dirname);
+  const { translatedStrings, alias } = getLocalizationConfig();
+  const { entry, bundleEntries } = getBundleConfig();
+  const plugins = [
+    // LocalizationPlugin: Handles internationalization (i18n)
+    // - Processes .resjson files and creates localized bundles
+    // - Enables dynamic locale switching at runtime
+    // - Creates webpack resolve aliases for default locale strings
+    new LocalizationPlugin({
+      localizedData: {
+        defaultLocale: {
+          localeName: DEFAULT_LOCALE
+        },
+        translatedStrings
+      }
+    }),
+    // ManifestPlugin: Generates SPFx component manifests required by SharePoint
+    // - Creates .json manifest files that describe your components to SharePoint
+    // - Handles component registration, dependencies, and metadata
+    // - Manages external dependencies and linked SPFx projects
+    // - Processes component assets and integrity hashes for security
+    new ManifestPlugin({
+      terminal,
+      bundleEntries,
+      // Base URL for internal modules (not actually deployed, used for manifest generation)
+      internalModuleBaseUrls: [
+        INTERNAL_MODULE_BASE_URL
+      ],
+      debugInternalModuleBaseUrls: [],
+      linkedExternals,
+      referencedProjects,
+      cumulativeManifestProcessor,
+      sourceLocaleName: DEFAULT_LOCALE,
+      // Localized manifest strings (currently disabled)
+      tryGetLocFileTranslations: (absoluteFilePath) =>
+      {
+        return undefined;
+      },
+      selectedLocales: undefined,
+      production
+    }),
+    new _setwebpackpublicpathplugin.SetPublicPathCurrentScriptPlugin()
+  ];
+  return {
+    plugins,
+    entry,
+    alias,
+    externals,
+    terminal
+  };
+}
+function generateConfig(env)
+{
+  const { entry, alias, externals, plugins } = getSPFxWebpackConfig(env);
+  console.log('Generating SPFx webpack config for', entry, alias, `${__dirname}/${DIST_FOLDER_NAME}`);
+  const config = {
+    mode: env.production ? 'production' : 'development',
+    entry,
+    output: {
+      filename: '[name]_[locale]_[contenthash].js',
+      path: `${__dirname}/${DIST_FOLDER_NAME}`,
+      // SPFx requires AMD module format for SharePoint's module loader
+      libraryTarget: 'amd'
+    },
+    module: {
+      rules: [
+        {
+          test: /\.resjson$/,
+          use: {
+            // All loaders are available in `@rushstack/webpack5-localization-plugin/lib/loaders/`
+            // Loaders for specific formats: `resjson-loader`, `locjson-loader`, `resx-loader`
+            // Loader that switches on file extension: `loc-loader`
+            // Loader that switches on file extension and skips localization: `default-locale-loader`
+            loader: require.resolve('@rushstack/webpack5-localization-plugin/lib/loaders/resjson-loader')
+          },
+          // Can be one of `javascript/esm`, `javascript/dynamic`, or `json`
+          // `javascript/esm` will produce the smallest bundle sizes, while `json` will produce faster code for large string tables
+          type: 'javascript/esm',
+          sideEffects: false
+        },
+        { test: /\.ts$/i, use: ['ts-loader', '@aurelia/webpack-loader'], exclude: [/node_modules/, /\.scss$/] },
+        { test: /[/\\]src[/\\].+\.html$/i, use: '@aurelia/webpack-loader', exclude: [/node_modules/, /\.scss$/] },
+        // Asset files (images, fonts, media)
+        {
+          test: /\.(png|mp4|mp3|svg|jpg|aac|woff2|woff)$/i,
+          type: 'asset/resource'
+        },
+        {
+        test: /\.(css|scss)$/i,
+        issuer: /\.html$/i,
+
+        use: [
+          {
+            loader: "style-loader"
+          },
+          {
+            loader: "css-loader", // Resolves CSS imports
+          },
+          {
+            loader: require.resolve('postcss-loader'),
+            options: {
+              postcssOptions: {
+                plugins: [
+                  require('cssnano')({ preset: 'default' })
+                  // ...(env.production ? [require('cssnano')({ preset: 'default' })] : [])
+                ]
+              }
             }
-        }),
-        // ManifestPlugin: Generates SPFx component manifests required by SharePoint
-        // - Creates .json manifest files that describe your components to SharePoint
-        // - Handles component registration, dependencies, and metadata
-        // - Manages external dependencies and linked SPFx projects
-        // - Processes component assets and integrity hashes for security
-        new ManifestPlugin({
-            terminal,
-            bundleEntries,
-            // Base URL for internal modules (not actually deployed, used for manifest generation)
-            internalModuleBaseUrls: [
-                INTERNAL_MODULE_BASE_URL
-            ],
-            debugInternalModuleBaseUrls: [],
-            linkedExternals,
-            referencedProjects,
-            cumulativeManifestProcessor,
-            sourceLocaleName: DEFAULT_LOCALE,
-            // Localized manifest strings (currently disabled)
-            tryGetLocFileTranslations: (absoluteFilePath)=>{
-                return undefined;
+          },
+          {
+            loader: "sass-loader",
+          }
+        ],
+      },
+        {
+          test: /\.module\.scss$/i,
+          use: [
+            {
+              loader: require.resolve('@microsoft/loader-load-themed-styles')
             },
-            selectedLocales: undefined,
-            production
-        }),
-        new _setwebpackpublicpathplugin.SetPublicPathCurrentScriptPlugin()
-    ];
-    return {
-        plugins,
-        entry,
-        alias,
-        externals,
-        terminal
-    };
-}
-function generateConfig(env) {
-    const { entry, alias, externals, plugins } = getSPFxWebpackConfig(env);
-    const config = {
-        mode: env.production ? 'production' : 'development',
-        entry,
-        output: {
-            filename: '[name]_[locale]_[contenthash].js',
-            path: `${__dirname}/${DIST_FOLDER_NAME}`,
-            // SPFx requires AMD module format for SharePoint's module loader
-            libraryTarget: 'amd'
-        },
-        module: {
-            rules: [
-                {
-                    test: /\.resjson$/,
-                    use: {
-                        // All loaders are available in `@rushstack/webpack5-localization-plugin/lib/loaders/`
-                        // Loaders for specific formats: `resjson-loader`, `locjson-loader`, `resx-loader`
-                        // Loader that switches on file extension: `loc-loader`
-                        // Loader that switches on file extension and skips localization: `default-locale-loader`
-                        loader: require.resolve('@rushstack/webpack5-localization-plugin/lib/loaders/resjson-loader')
-                    },
-                    // Can be one of `javascript/esm`, `javascript/dynamic`, or `json`
-                    // `javascript/esm` will produce the smallest bundle sizes, while `json` will produce faster code for large string tables
-                    type: 'javascript/esm',
-                    sideEffects: false
-                },
-                // {
-                //     // Allow importing JS files that don't have explicit extensions
-                //     test: /\.js$/,
-                //     resolve: {
-                //         fullySpecified: false
-                //     }
-                // },
-                { test: /\.ts$/i, use: ['ts-loader', '@aurelia/webpack-loader'], exclude: /node_modules/ },
-                { test: /[/\\]src[/\\].+\.html$/i, use: '@aurelia/webpack-loader', exclude: /node_modules/
-        },
-                // {
-                //     // Load .ts/.tsx files
-                //     test: /\.tsx?$/,
-                //     loader: 'ts-loader',
-                //     options: {
-                //         transpileOnly: true,
-                //         configFile: `${__dirname}/tsconfig.json`
-                //     },
-                //     resolve: {
-                //         fullySpecified: false
-                //     }
-                // },
-                // Asset files (images, fonts, media)
-                {
-                    test: /\.(png|mp4|mp3|svg|jpg|aac|woff2|woff)$/i,
-                    type: 'asset/resource'
-                },
-                // Styles (CSS/SCSS)
-                {
-                    test: /\.(css|sass|scss)$/i,
-                    use: [
-                        'style-loader',
-                        'css-loader',
-                        {
-                            loader: 'sass-loader',
-                            options: {
-                                implementation: require('sass'),
-                                sassOptions: {
-                                    includePaths: [
-                                        `${__dirname}/node_modules`
-                                    ]
-                                }
-                            }
-                        }
-                    ]
+            {
+              loader: require.resolve('css-loader'),
+              options: {
+                esModule: false,
+                importLoaders: 1,
+                modules: {
+                  localIdentName: '[local]__[hash:base64:5]'
                 }
-            ]
+              }
+            },
+            {
+              loader: require.resolve('sass-loader'),
+              options: {
+                sassOptions: {
+                  includePaths: ['node_modules']
+                }
+              }
+            }
+          ],
         },
-        resolve: {
-            extensions: [
-                '.js',
-                '.jsx',
-                '.ts',
-                '.tsx'
-            ],
-            alias
-        },
-        externals,
-        performance: {
-            hints: false
-        },
-        plugins
-    };
-    return config;
+      ]
+    },
+    resolve: {
+      extensions: [
+        '.js',
+        '.jsx',
+        '.ts',
+        '.tsx'
+      ],
+      alias
+    },
+    externals,
+    performance: {
+      hints: false
+    },
+    plugins
+  };
+
+  for (const rule of config.module.rules)
+  {
+    if (rule.test && rule.test.toString().includes('scss'))
+    {
+      console.log("RULE.test:", rule.test.toString());
+      console.log("USE:");
+      console.log(rule.use);
+      console.log("------------------------------------------");
+    }
+  }
+  console.log("===========================================\n");
+  return config;
 }
 
 //# sourceMappingURL=./webpack.config.js.map
