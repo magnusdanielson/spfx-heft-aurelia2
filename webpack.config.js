@@ -276,7 +276,6 @@ function getSPFxWebpackConfig({ production })
 function generateConfig(env)
 {
   const { entry, alias, externals, plugins } = getSPFxWebpackConfig(env);
-  console.log('Generating SPFx webpack config for', entry, alias, `${__dirname}/${DIST_FOLDER_NAME}`);
   const config = {
     mode: env.production ? 'production' : 'development',
     entry,
@@ -380,17 +379,6 @@ function generateConfig(env)
     plugins
   };
 
-  for (const rule of config.module.rules)
-  {
-    if (rule.test && rule.test.toString().includes('scss'))
-    {
-      console.log("RULE.test:", rule.test.toString());
-      console.log("USE:");
-      console.log(rule.use);
-      console.log("------------------------------------------");
-    }
-  }
-  console.log("===========================================\n");
   return config;
 }
 

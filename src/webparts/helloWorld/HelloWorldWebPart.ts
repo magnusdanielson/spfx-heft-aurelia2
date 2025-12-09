@@ -5,48 +5,46 @@ import {
 } from '@microsoft/sp-property-pane';
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import type { IReadonlyTheme } from '@microsoft/sp-component-base';
-//import { escape } from '@microsoft/sp-lodash-subset';
-
-//import styles from './HelloWorldWebPart.module.scss';
 import strings from 'HelloWorldWebPartStrings';
 import { Aurelia } from 'aurelia';
-import { TeamsInbox } from './platinaTeamsInbox/components/teams-inbox';
+import { MyApp } from './components/my-app';
+import { AppContext } from './models/app-context';
+import { Registration } from '@aurelia/kernel';
 export interface IHelloWorldWebPartProps {
   description: string;
 }
-
-//console.log('SCSS module import:', styles);
 
 export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorldWebPartProps> {
 
   private _isDarkTheme: boolean = false;
   private _environmentMessage: string = '';
-  
+  private _contextName: string = '';
+
   public async render(): Promise<void> {
     console.log('HelloWorldWebPart render called');
-      this.domElement.innerHTML = `<div id="aurelia-${this.instanceId}" class="${this.instanceId}"  ></div>`;
-
+    this.domElement.innerHTML = `<div id="aurelia-${this.instanceId}" class="${this.instanceId}"  ></div>`;
     const el:HTMLElement = document.getElementById("aurelia-" + this.instanceId)!;
-    console.log('Enhancing Aurelia component in element:', el);
+    const appContext = new AppContext();
+    appContext.message = this._environmentMessage;
+    appContext.contextName = this._contextName;
 
     const app = Aurelia
-    .register(TeamsInbox) 
-  .app({
-    component: TeamsInbox,
-    host: el
-  });
+    .register(MyApp, Registration.instance("AppContext",appContext)) 
+    .app({
+      component: MyApp,
+      host: el
+    });
 
     await app.start();
-    console.log('Aurelia app started:', app);
+    console.log('Aurelia app started');
   }
 
   protected onInit(): Promise<void> {
     return this._getEnvironmentMessage().then(message => {
-      this._environmentMessage = message;
+      console.log('Environment message:', message);
+      
     });
   }
-
-
 
   private _getEnvironmentMessage(): Promise<string> {
     if (!!this.context.sdks.microsoftTeams) { // running in Teams, office.com or Outlook
@@ -67,12 +65,14 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
             default:
               environmentMessage = strings.UnknownEnvironment;
           }
-
+          this._contextName = context.app.host.name;
+          this._environmentMessage = environmentMessage;
           return environmentMessage;
         });
     }
-
-    return Promise.resolve(this.context.isServedFromLocalhost ? strings.AppLocalEnvironmentSharePoint : strings.AppSharePointEnvironment);
+    this._contextName = "SharePoint";
+    this._environmentMessage = this.context.isServedFromLocalhost ? strings.AppLocalEnvironmentSharePoint : strings.AppSharePointEnvironment;
+    return Promise.resolve(this._environmentMessage);
   }
 
   protected onThemeChanged(currentTheme: IReadonlyTheme | undefined): void {

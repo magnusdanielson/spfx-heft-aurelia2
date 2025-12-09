@@ -1,0 +1,21 @@
+<template>
+    <require from="./other.css"></require>
+    <require from="./my.scss"></require>
+    <require from="./other-component"></require>
+    <div class="${styles.helloWorld}">
+        <div class="container">
+            <h2>${appContext.message}</h2>
+            <div class="header">
+                This div is styled with manual loaded scss for my-app component
+            </div>
+        </div>
+        <div class="${styles.welcome}">This div is styled with module.scss ${message}</div>
+        <div class="simple-header">This div is styled with auto loaded css for my-app component</div>
+        <div class="large-header">This div is styled with manual loaded css.</div>
+        <button class="button" click.trigger="onClick()">Click Me</button>
+    </div>
+
+
+    <other-component context-name.bind="appContext.contextName"></other-component>
+
+</template>
